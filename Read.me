@@ -1,0 +1,44 @@
+expo-cli does not support NODE +17, therefor we are using @16.19.0
+npm i axios
+
+- Remove CoinDetailedScreen FROM HOME SCREEN
+
+
+
+// INSTALLING ALCHEMY SDK
+- npm install alchemy-sdk
+
+
+<ButtonGroup buttons={['Tokens', 'Gallery', 'Activity']} doSomethingAfterClick={printButtonLabel}/>
+
+<Image style={{ width: 350, height: 100, alignItems: 'center' }} source={require('../../assets/png/graph.png')}></Image>
+
+
+
+Uploading to Testflight (https://www.youtube.com/watch?v=LE4Mgkrf7Sk)
+- npm install -g eas-cli
+- eas login
+- eas build:configure
+- eas build --platform ios
+
+
+
+SVG
+- npm install react-native-svg
+- npm i react-native-svg-transformer
+
+UNISWAP (SWAP) Widget
+- npm i --save @uniswap/v3-sdk
+- npm i --save @uniswap/sdk-core
+
+MAGIC SDK
+- npm install --save @magic-sdk/react-native-expo
+- npm install --save react-native-webview@^8.0.0
+- npm install --save react-native-safe-area-context
+
+DARK MODE
+import themeContext from '../../../theme/themeContext';
+import { EventRegister } from 'react-native-event-listeners'
+
+const theme = useContext(themeContext)
+const [darkMode, setDarkMode] = useState(false)
