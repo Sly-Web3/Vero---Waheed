@@ -1,0 +1,24 @@
+[
+    {
+      "id": "ETHEREUM:0xd8a5d498ab43ed060cb6629b97a19e3e4276dd9f",
+      "numberOfSales": {
+        "value": 4847,
+        "changePercent": 1785.9922178988327
+      },
+      "volumeUsd": {
+        "currency": "USD",
+        "value": 6353514.679736262,
+        "changePercent": 2415.324967987071
+      },
+      "volumeNative": {
+        "currency": "ETH",
+        "value": 3095.884291383326
+      },
+      "floorPrice": {
+        "currency": "ETH",
+        "value": 0.5749
+      }
+    }
+  ]
+
+  //https://api.rarible.org/v0.1/doc#tag/collection-controller/operation/getAllCollections
